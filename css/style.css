@@ -60,7 +60,7 @@ h1 {
   background-color: #dcbdb5;
   content: "";
   cursor: pointer;
-  transition: background .4s;
+  transition: background .4s; /* Background is the property in transition */
 }
 
 /* Creates right side of heart shape */
@@ -76,7 +76,7 @@ h1 {
   background-color: #dcbdb5;
   content: "";
   cursor: pointer;
-  transition: background .4s;
+  transition: background .4s; /* Background is the property in transition */
 }
 
 /* Sets the background color for elements with a class of liked */
