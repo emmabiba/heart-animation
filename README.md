@@ -1,6 +1,6 @@
 # Heart Animation Coding Challenge
 
-The goal of this project is to create an animated heart to replicate the like feature on Twitter.
+The goal of this project is to create an animated heart.
 
 ## Skills
 
