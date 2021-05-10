@@ -47,6 +47,7 @@ h1 {
   height: 130px;
 }
 
+/* Creates left side of heart shape */
 .heart-like-button:before {
   position: absolute;
   top: 0;
@@ -62,6 +63,7 @@ h1 {
   transition: background .4s;
 }
 
+/* Creates right side of heart shape */
 .heart-like-button:after {
   position: absolute;
   top: 0;
@@ -77,11 +79,13 @@ h1 {
   transition: background .4s;
 }
 
+/* Sets the background color for elements with a class of liked */
 .heart-like-button.liked::before,
 .heart-like-button.liked::after {
   background-color: #d65076;
 }
 
+/* Adds liked animation to the heart */
 .heart-like-button.liked {
   animation: liked .4s ease;
 }
@@ -106,12 +110,12 @@ footer a{
 
 @keyframes liked {
   0% {
-    transform: scale(.8);
+    transform: scale(.8); /* Scales down the heart on click */
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1.1); /* Halfway through the animation time it get's larger than it originally was */
   }
   100% {
-    transform: scale(1);
+    transform: scale(1); /* Scales back down to 100% by the end of the animation */
   }
 }
